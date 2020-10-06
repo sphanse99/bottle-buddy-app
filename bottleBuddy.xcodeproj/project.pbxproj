@@ -3,18 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4C5996D0252971AE00BB0E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5996CF252971AE00BB0E31 /* AppDelegate.swift */; };
 		4C5996D2252971AE00BB0E31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5996D1252971AE00BB0E31 /* SceneDelegate.swift */; };
-		4C5996D4252971AE00BB0E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5996D3252971AE00BB0E31 /* ViewController.swift */; };
 		4C5996D7252971AE00BB0E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5996D5252971AE00BB0E31 /* Main.storyboard */; };
 		4C5996D9252971AF00BB0E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5996D8252971AF00BB0E31 /* Assets.xcassets */; };
 		4C5996DC252971AF00BB0E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5996DA252971AF00BB0E31 /* LaunchScreen.storyboard */; };
 		4C5996E7252971AF00BB0E31 /* bottleBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5996E6252971AF00BB0E31 /* bottleBuddyTests.swift */; };
 		4C5996F2252971AF00BB0E31 /* bottleBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5996F1252971AF00BB0E31 /* bottleBuddyUITests.swift */; };
+		4C599729252A27A400BB0E31 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C599728252A27A400BB0E31 /* StartViewController.swift */; };
+		4C59972E252A290E00BB0E31 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59972D252A290E00BB0E31 /* HomeViewController.swift */; };
+		4C599733252A427500BB0E31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C599732252A427500BB0E31 /* GoogleService-Info.plist */; };
+		4C599756252BF50200BB0E31 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C599755252BF50200BB0E31 /* SignUpViewController.swift */; };
+		4C59975B252BF50F00BB0E31 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C59975A252BF50F00BB0E31 /* LoginViewController.swift */; };
+		4CEB4A9C252C01AA009FC9C2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB4A9B252C01AA009FC9C2 /* Utilities.swift */; };
+		4CEB4ABA252CCC35009FC9C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEB4AB9252CCC35009FC9C2 /* Constants.swift */; };
+		5137338C3A4AEC1755955A21 /* Pods_bottleBuddy_bottleBuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1247EE8E6D19994923D7EF32 /* Pods_bottleBuddy_bottleBuddyUITests.framework */; };
+		867A6FEEC4104644E307DA23 /* Pods_bottleBuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE18B15CA6A1CD47530FACD /* Pods_bottleBuddyTests.framework */; };
+		AF3B19C79501BF831BA04E1F /* Pods_bottleBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5713F37FAD73C303331DC552 /* Pods_bottleBuddy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1247EE8E6D19994923D7EF32 /* Pods_bottleBuddy_bottleBuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bottleBuddy_bottleBuddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5996CC252971AE00BB0E31 /* bottleBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bottleBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5996CF252971AE00BB0E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C5996D1252971AE00BB0E31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C5996D3252971AE00BB0E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4C5996D6252971AE00BB0E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C5996D8252971AF00BB0E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C5996DB252971AF00BB0E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,21 @@
 		4C5996ED252971AF00BB0E31 /* bottleBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bottleBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5996F1252971AF00BB0E31 /* bottleBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottleBuddyUITests.swift; sourceTree = "<group>"; };
 		4C5996F3252971AF00BB0E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C599728252A27A400BB0E31 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		4C59972D252A290E00BB0E31 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4C599732252A427500BB0E31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4C599755252BF50200BB0E31 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4C59975A252BF50F00BB0E31 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4CEB4A9B252C01AA009FC9C2 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4CEB4AB9252CCC35009FC9C2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5713F37FAD73C303331DC552 /* Pods_bottleBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bottleBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D97BC93DFF5819D24A61BE /* Pods-bottleBuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bottleBuddyTests.debug.xcconfig"; path = "Target Support Files/Pods-bottleBuddyTests/Pods-bottleBuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66EC7B7629701CD4A9144FF6 /* Pods-bottleBuddy-bottleBuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bottleBuddy-bottleBuddyUITests.release.xcconfig"; path = "Target Support Files/Pods-bottleBuddy-bottleBuddyUITests/Pods-bottleBuddy-bottleBuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DDEADCE65C94B653A3C2D3D /* Pods-bottleBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bottleBuddy.release.xcconfig"; path = "Target Support Files/Pods-bottleBuddy/Pods-bottleBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		A5DF1C6C4F54B5648EAA7A98 /* Pods-bottleBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bottleBuddy.debug.xcconfig"; path = "Target Support Files/Pods-bottleBuddy/Pods-bottleBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		D5F7C1037426DA108E427F2C /* Pods-bottleBuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bottleBuddyTests.release.xcconfig"; path = "Target Support Files/Pods-bottleBuddyTests/Pods-bottleBuddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		DAE18B15CA6A1CD47530FACD /* Pods_bottleBuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bottleBuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C18D4602DFCB131F45B6F6 /* Pods-bottleBuddy-bottleBuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bottleBuddy-bottleBuddyUITests.debug.xcconfig"; path = "Target Support Files/Pods-bottleBuddy-bottleBuddyUITests/Pods-bottleBuddy-bottleBuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF3B19C79501BF831BA04E1F /* Pods_bottleBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				867A6FEEC4104644E307DA23 /* Pods_bottleBuddyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5137338C3A4AEC1755955A21 /* Pods_bottleBuddy_bottleBuddyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27D6B5DF35872C6579C82C71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5713F37FAD73C303331DC552 /* Pods_bottleBuddy.framework */,
+				1247EE8E6D19994923D7EF32 /* Pods_bottleBuddy_bottleBuddyUITests.framework */,
+				DAE18B15CA6A1CD47530FACD /* Pods_bottleBuddyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4C5996C3252971AE00BB0E31 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				4C5996E5252971AF00BB0E31 /* bottleBuddyTests */,
 				4C5996F0252971AF00BB0E31 /* bottleBuddyUITests */,
 				4C5996CD252971AE00BB0E31 /* Products */,
+				796C5615CFA6747D005F09A7 /* Pods */,
+				27D6B5DF35872C6579C82C71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +140,14 @@
 			children = (
 				4C5996CF252971AE00BB0E31 /* AppDelegate.swift */,
 				4C5996D1252971AE00BB0E31 /* SceneDelegate.swift */,
-				4C5996D3252971AE00BB0E31 /* ViewController.swift */,
 				4C5996D5252971AE00BB0E31 /* Main.storyboard */,
+				4C59975F252BF53E00BB0E31 /* ViewControllers */,
 				4C5996D8252971AF00BB0E31 /* Assets.xcassets */,
 				4C5996DA252971AF00BB0E31 /* LaunchScreen.storyboard */,
 				4C5996DD252971AF00BB0E31 /* Info.plist */,
+				4C599732252A427500BB0E31 /* GoogleService-Info.plist */,
+				4CEB4A9B252C01AA009FC9C2 /* Utilities.swift */,
+				4CEB4AB9252CCC35009FC9C2 /* Constants.swift */,
 			);
 			path = bottleBuddy;
 			sourceTree = "<group>";
@@ -128,6 +170,30 @@
 			path = bottleBuddyUITests;
 			sourceTree = "<group>";
 		};
+		4C59975F252BF53E00BB0E31 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C599755252BF50200BB0E31 /* SignUpViewController.swift */,
+				4C59975A252BF50F00BB0E31 /* LoginViewController.swift */,
+				4C59972D252A290E00BB0E31 /* HomeViewController.swift */,
+				4C599728252A27A400BB0E31 /* StartViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		796C5615CFA6747D005F09A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5DF1C6C4F54B5648EAA7A98 /* Pods-bottleBuddy.debug.xcconfig */,
+				9DDEADCE65C94B653A3C2D3D /* Pods-bottleBuddy.release.xcconfig */,
+				E6C18D4602DFCB131F45B6F6 /* Pods-bottleBuddy-bottleBuddyUITests.debug.xcconfig */,
+				66EC7B7629701CD4A9144FF6 /* Pods-bottleBuddy-bottleBuddyUITests.release.xcconfig */,
+				66D97BC93DFF5819D24A61BE /* Pods-bottleBuddyTests.debug.xcconfig */,
+				D5F7C1037426DA108E427F2C /* Pods-bottleBuddyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C5996F6252971AF00BB0E31 /* Build configuration list for PBXNativeTarget "bottleBuddy" */;
 			buildPhases = (
+				554161584B2127DF4E47DA7A /* [CP] Check Pods Manifest.lock */,
 				4C5996C8252971AE00BB0E31 /* Sources */,
 				4C5996C9252971AE00BB0E31 /* Frameworks */,
 				4C5996CA252971AE00BB0E31 /* Resources */,
+				435BBD7227DE0AB8B30AD8E0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C5996F9252971AF00BB0E31 /* Build configuration list for PBXNativeTarget "bottleBuddyTests" */;
 			buildPhases = (
+				1134D43783BE1B3F4F460FC8 /* [CP] Check Pods Manifest.lock */,
 				4C5996DE252971AF00BB0E31 /* Sources */,
 				4C5996DF252971AF00BB0E31 /* Frameworks */,
 				4C5996E0252971AF00BB0E31 /* Resources */,
@@ -170,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C5996FC252971AF00BB0E31 /* Build configuration list for PBXNativeTarget "bottleBuddyUITests" */;
 			buildPhases = (
+				1B977D8930CA36F6CF61D137 /* [CP] Check Pods Manifest.lock */,
 				4C5996E9252971AF00BB0E31 /* Sources */,
 				4C5996EA252971AF00BB0E31 /* Frameworks */,
 				4C5996EB252971AF00BB0E31 /* Resources */,
+				8A42BFD18339C1821E8EBF34 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5996DC252971AF00BB0E31 /* LaunchScreen.storyboard in Resources */,
+				4C599733252A427500BB0E31 /* GoogleService-Info.plist in Resources */,
 				4C5996D9252971AF00BB0E31 /* Assets.xcassets in Resources */,
 				4C5996D7252971AE00BB0E31 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +325,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1134D43783BE1B3F4F460FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bottleBuddyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B977D8930CA36F6CF61D137 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bottleBuddy-bottleBuddyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		435BBD7227DE0AB8B30AD8E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bottleBuddy/Pods-bottleBuddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bottleBuddy/Pods-bottleBuddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bottleBuddy/Pods-bottleBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		554161584B2127DF4E47DA7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bottleBuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A42BFD18339C1821E8EBF34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bottleBuddy-bottleBuddyUITests/Pods-bottleBuddy-bottleBuddyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bottleBuddy-bottleBuddyUITests/Pods-bottleBuddy-bottleBuddyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bottleBuddy-bottleBuddyUITests/Pods-bottleBuddy-bottleBuddyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C5996C8252971AE00BB0E31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C5996D4252971AE00BB0E31 /* ViewController.swift in Sources */,
+				4C59975B252BF50F00BB0E31 /* LoginViewController.swift in Sources */,
+				4C599729252A27A400BB0E31 /* StartViewController.swift in Sources */,
+				4CEB4A9C252C01AA009FC9C2 /* Utilities.swift in Sources */,
 				4C5996D0252971AE00BB0E31 /* AppDelegate.swift in Sources */,
+				4C59972E252A290E00BB0E31 /* HomeViewController.swift in Sources */,
 				4C5996D2252971AE00BB0E31 /* SceneDelegate.swift in Sources */,
+				4C599756252BF50200BB0E31 /* SignUpViewController.swift in Sources */,
+				4CEB4ABA252CCC35009FC9C2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +613,7 @@
 		};
 		4C5996F7252971AF00BB0E31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5DF1C6C4F54B5648EAA7A98 /* Pods-bottleBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +633,7 @@
 		};
 		4C5996F8252971AF00BB0E31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDEADCE65C94B653A3C2D3D /* Pods-bottleBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +653,7 @@
 		};
 		4C5996FA252971AF00BB0E31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D97BC93DFF5819D24A61BE /* Pods-bottleBuddyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +676,7 @@
 		};
 		4C5996FB252971AF00BB0E31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F7C1037426DA108E427F2C /* Pods-bottleBuddyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +699,7 @@
 		};
 		4C5996FD252971AF00BB0E31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C18D4602DFCB131F45B6F6 /* Pods-bottleBuddy-bottleBuddyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +720,7 @@
 		};
 		4C5996FE252971AF00BB0E31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EC7B7629701CD4A9144FF6 /* Pods-bottleBuddy-bottleBuddyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
